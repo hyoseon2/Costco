@@ -1,0 +1,84 @@
+@media (min-width: 350px){
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text{
+        text-align: center;
+        margin-left: 10px;
+    }
+}
+
+@media (min-width: 400px){
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text{
+        text-align: center;
+        margin-left: 25px;
+    }
+}
+
+@media (min-width: 610px){
+
+    .section1 .swiper.main .swiper-wrapper .swiper-slide img.m{
+        display: none;
+    }
+
+    .section1 .swiper.main .swiper-wrapper .swiper-slide img.tab{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide img.m{
+        display: none;
+    }
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide img.pc{
+        display: block;
+    }
+
+}
+
+@media (min-width: 700px){
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text{
+        text-align: center;
+        margin-left: 40px;
+    }
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .sub span{
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt h5{
+        font-size: 18px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt p{
+        font-size: 16px;
+        margin-top: 2px;
+    }
+
+}
+
+@media (min-width: 800px){
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text{
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .sub span{
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt h5{
+        font-size: 24px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt p{
+        font-size: 18px;
+        margin-top: 2px;
+    }
+
+}

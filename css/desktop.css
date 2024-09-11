@@ -1,0 +1,1070 @@
+@media (min-width: 992px){
+
+    img.m{display: none;}
+    img.tab{display: none;}
+    img.pc{display: block;}
+    
+    #wrapper{
+        padding-top: 200px;
+    }
+
+    header{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 200px;
+    }
+
+    header .headerWrap{
+        width: 1320px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    header .headerWrap .top{
+        display: block;
+        height: 40px;
+    }
+
+    header .headerWrap .top ul li a p{
+        color: #767676;
+        font-size: 12px;
+        margin-top: 2px;
+    }
+
+    header .headerWrap .top ul{
+        display: flex;
+        justify-content: right;
+        gap: 24px;
+        padding-top: 10px;
+    }
+
+    header .headerWrap .top ul li a{
+        display: flex;
+        gap: 6px;
+    }
+
+    header .headerWrap .mid{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    header .headerWrap .mid .up{
+        height: 55px;
+        border-bottom: unset;
+    }
+
+    header .headerWrap .mid .up .logo a img{
+        margin-top: 12px;
+    }
+
+    header .headerWrap .mid .up .app{
+        display: none;
+    }
+
+    header .headerWrap .mid .down{
+        display: flex;
+    }
+
+    header .headerWrap .mid .down .search{
+        width: 450px;
+        height: 35px;
+        margin: 20px auto;
+        border: 1px solid #b3b3b3;
+        border-radius: 20px;
+        display: flex;
+        gap: 14px;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    header .headerWrap .mid .down .icon{
+        display: block;
+    }
+
+    header .headerWrap .mid .down .icon ul{
+        display: flex;
+        gap: 40px;
+        margin-top: 16px;
+    }
+
+    header .headerWrap .bottom{
+        display: block;
+        margin: 20px auto;
+    }
+
+    header .headerWrap .bottom .menu{
+        display: flex;
+    }
+
+    header .headerWrap .bottom .menu .category button{
+        display: flex;
+        gap: 8px;
+    }
+
+    header .headerWrap .bottom .menu .category button h4{
+        font-weight: 700;
+        color: #444444;
+        font-size: 16px;
+    }
+
+    header .headerWrap .bottom .menu ul{
+        display: flex;
+        gap: 36px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    header .headerWrap .bottom .menu ul li a{
+        color: #767676;
+    }
+
+    header .headerWrap nav{
+        display: block;
+        width: 1320px;
+        height: 600px;
+        padding: 0 10px;
+        background-color: #ffffff;
+        position: relative;
+        display: none;
+        z-index: 5;
+    }
+
+    header .headerWrap nav .list li .tit{
+        width: 200px;
+        height: 40px;
+        position: relative;
+    }
+
+    header .headerWrap nav .list li .tit button{
+        display: flex;
+    }
+
+    header .headerWrap nav .list li .tit h4{
+        font-size: 16px;
+    }
+
+    header .headerWrap nav .list li .tit img{
+        width: 8px;
+        position: absolute;
+        top: 2px;
+        right: 0;
+    }
+
+    header .headerWrap nav .list li .sub{
+        position: absolute;
+        top: 0;
+        left: 340px;
+        display: none;
+    }
+
+    header .headerWrap nav .list li .sub li{
+        margin-bottom: 20px;
+    }
+
+    header .headerWrap nav .list li .more{
+        position: absolute;
+        top: 20px;
+        left: 600px;
+        display: none;
+    }
+
+    header .headerWrap nav .list li .more .img a img{
+        width: 190px;
+    }
+
+    header .headerWrap nav .list li .more p{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+
+    header .headerWrap nav .list li .more .go{
+        width: 150px;
+        height: 30px;
+        line-height: 30px;
+        background-color: #035ea3;
+        border-radius: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    header .headerWrap nav .list li .more .go span{
+        color: #ffffff;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .section1 .swiper.main .swiper-wrapper .swiper-slide img.pc{
+        margin: 0 auto;
+    }
+
+    .section1 .swiper.main .swiper-wrapper .swiper-slide img.tab{
+        display: none;
+    }
+
+    .section2{
+        width: 1320px;
+        padding: 70px 10px;
+        margin: 0 auto;
+    }
+
+    .section2 .banner ul li a{
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
+
+    .section2 .banner ul li a .text{
+        margin: 30px 0 auto 0
+    }
+
+    .section2 .banner ul li a .text .sub{
+        display: block;
+        width: 150px;
+        height: 30px;
+        background-color: #f7f223;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+
+    .section2 .banner ul li a .text .sub span{
+        color: #111111;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .section2 .banner ul li:first-child a{
+        height: 200px;
+        padding: 0 20px;
+    }
+
+    .section2 .banner ul li:nth-child(2) a{
+        height: 200px;
+    }
+
+    .section2 .banner ul li a .text .txt p{
+        font-size: 16px;
+    }
+
+    .section2 .banner ul li a .text .txt h5{
+        font-size: 18px;
+    }
+
+    .section2 .banner ul li:first-child a img{
+        width: 262px !important;
+        height: 161px !important;
+        margin: 20px 0 auto 0;
+    }
+
+    .section2 .banner ul li:nth-child(2) a img{
+        width: 165px !important;
+        height: 165px !important;
+        margin: 20px 0 auto 0;
+    }
+
+    .section3{
+        width: 1320px;
+        padding: 0 10px 70px;
+    }
+
+    .section3 .m{
+        display: none;
+    }
+
+    .section3 .pc{
+        display: block;
+    }
+
+    .section3 .pc .tit{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section3 .pc .tit h3{
+        font-size: 24px;
+    }
+
+    .section3 .pc .tit .more a{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section3 .pc .tit .more a span{
+        font-size: 20px;
+    }
+
+    .section3 .pc .tit .more a img{
+        width: 8px;
+        height: 16px;
+        margin-top: 4px;
+    }
+
+    .section3 .pc .list{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .section3 .pc .list li .goods{
+        position: relative;
+    }
+
+    .section3 .pc .list li .goods a{
+        margin-bottom: 4px;
+    }
+
+    .section3 .pc .list li .goods button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 25px;
+    }
+
+    .section3 .pc .list li span{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .section3 .pc .list li p{
+        font-size: 17px;
+        font-weight: 300;
+        color: #767676;
+        margin-top: 4px;
+    }
+
+    .section3 .pc .list li h4{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .section3 .pc .list li .coupon{
+        width: max-content;
+        border: 1px solid #111111;
+        border-radius: 4px;
+    }
+
+    .section3 .pc .list li .coupon p{
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 13px;
+        font-weight: 500; 
+        margin-bottom: 4px;
+    }
+
+    .section4{
+        width: 1320px;
+        padding: 0 10px 70px;
+    }
+    
+    .section4 .sub_banner ul li a{
+        height: 200px;
+        display: flex;
+        gap: 60px;
+        text-align: left;
+    }
+    
+    .section4 .sub_banner ul li a .txt{
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    
+    .section4 .sub_banner ul li a .txt h5{
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+    
+    .section4 .sub_banner ul li a .txt p{
+        display: block;
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    
+    .section4 .sub_banner ul li a img{
+        margin: unset;
+    }
+    
+    .section4 .sub_banner ul li:first-child a img{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 270px;
+        height: 100px;
+    }
+
+    .section4 .sub_banner ul li:nth-child(2) a img{
+        margin-top: 30px;
+        margin-left: 30px;
+        width: 180px;
+        height: 140px;
+    }
+    
+    .section4 .sub_banner ul li:nth-child(3) a img{
+        margin-top: 35px;
+        margin-left: 65px;
+        width: 130px;
+        height: 130px;
+    }
+    
+    .section4 .sub_banner ul li:nth-child(4) a img{
+        margin-top: 50px;
+        margin-left: 80px;
+        width: 200px;
+        height: 100px;
+    }
+
+    .section5{
+        width: 1320px;
+        padding: 0 10px 70px;
+    }
+
+    .section5 .m{
+        display: none;
+    }
+
+    .section5 .pc{
+        display: block;
+    }
+
+    .section5 .pc .tit{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section5 .pc .tit h3{
+        font-size: 24px;
+    }
+
+    .section5 .pc .tit .more a{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section5 .pc .tit .more a span{
+        font-size: 20px;
+    }
+
+    .section5 .pc .tit .more a img{
+        width: 8px;
+        height: 16px;
+        margin-top: 4px;
+    }
+
+    .section5 .pc .list{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .section5 .pc .list li .goods{
+        position: relative;
+    }
+
+    .section5 .pc .list li .goods a{
+        margin-bottom: 4px;
+    }
+
+    .section5 .pc .list li .goods button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 25px;
+    }
+
+    .section5 .pc .list li span{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .section5 .pc .list li p{
+        font-size: 17px;
+        font-weight: 300;
+        color: #767676;
+        margin-top: 4px;
+    }
+
+    .section5 .pc .list li h4{
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .section5 .pc .list li .bottom{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section5 .pc .list li .coupon{
+        width: max-content;
+        border: 1px solid #111111;
+        border-radius: 4px;
+    }
+
+    .section5 .pc .list li .coupon p{
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 13px;
+        font-weight: 500; 
+        margin-bottom: 4px;
+    }
+
+    .section6{
+        width: 1320px;
+        padding: 0 10px 70px;
+    }
+
+    .section6 .m{
+        display: none;
+    }
+
+    .section6 .pc{
+        display: block;
+    }
+
+    .section6 .pc .tit{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section6 .pc .tit h3{
+        font-size: 24px;
+    }
+
+    .section6 .pc .tit .more a{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section6 .pc .tit .more a span{
+        font-size: 20px;
+    }
+
+    .section6 .pc .tit .more a img{
+        width: 8px;
+        height: 16px;
+        margin-top: 4px;
+    }
+
+    .section6 .pc .list{
+        display: flex;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .section6 .pc .list li .goods{
+        position: relative;
+    }
+
+    .section6 .pc .list li .goods a{
+        margin-bottom: 4px;
+    }
+
+    .section6 .pc .list li .goods button{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 25px;
+    }
+
+    .section6 .pc .list li span{
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .section6 .pc .list li p{
+        font-size: 17px;
+        font-weight: 300;
+        color: #767676;
+        margin-top: 4px;
+    }
+
+    .section6 .pc .list li .sale{
+        display: flex;
+        gap: 8px;
+        margin-top: 20px;
+    }
+
+    .section6 .pc .list li .sale h6{
+        color: #035ea3;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .section6 .pc .list li .sale h4{
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .section6 .pc .list li span:nth-child(2){
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .section6 .pc .list li .bottom{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section6 .pc .list li .coupon{
+        width: max-content;
+        border: 1px solid #111111;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .section6 .pc .list li .coupon p{
+        padding-left: 8px;
+        padding-right: 8px;
+        font-size: 13px;
+        font-weight: 500; 
+        margin-bottom: 4px;
+    }
+
+    .section7{
+        width: 1320px;
+        padding: 0 10px 70px;
+        margin: 0 auto;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .first{
+        display: block;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .sub{
+        width: 150px;
+        height: 30px;
+        background-color: #f7f223;
+        border-radius: 20px;
+        margin: 0 auto 20px;
+    }
+
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text{
+        text-align: center;
+        margin-left: unset;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .sub span{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt h5{
+        font-size: 22px;
+    }
+    
+    .section7 .swiper.banner .swiper-wrapper .swiper-slide a .text .txt p{
+        font-size: 13px;
+    }
+
+    .section8{
+        width: 1320px;
+        padding: 0 10px 70px;
+        margin: 0 auto;
+    }
+
+    .section8 .tit{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section8 .tit h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .section8 .tit .more{
+        display: block;
+    }
+
+    .section8 .tit .more a{
+        display: flex;
+        gap: 8px;
+    }
+
+    .section8 .tit .more a span{
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .section8 .tit .more a img{
+        width: 8px;
+        height: 16px;
+        margin-top: 4px;
+    }
+
+    .section8 .swiper.tabmenu{
+        width: 500px;
+        height: 40px;
+        float: left;
+        text-align: center;
+    }
+
+    .section8 .swiper.tabmenu .swiper-wrapper .swiper-slide button{
+        font-size: 20px;
+    }
+
+    .section8 .tabcon .grid{
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .section8 .tabcon .grid li span{
+        font-size: 15px;
+    }
+
+    .section8 .tabcon .grid li p{
+        font-size: 16px;
+        overflow: hidden;
+        white-space: normal;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        word-break: keep-all;
+    }
+    
+    .section8 .tabcon .grid li h4{
+        font-size: 18px;
+    }
+
+    .section8 .tabcon .grid li a .thumb img:nth-child(2){
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        width: 20px;
+    }
+
+    .section8 .read{
+        display: none;
+    }
+
+    .section9{
+        padding: 70px 10px;
+    }
+
+    .section9 .wrap{
+        width: 1320px;
+        margin: 0 auto;
+    }
+
+    .section9 .tit h5{
+        font-size: 14px;
+    }
+
+    .section9 .wrap .tit h3{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .section9 .wrap .tit .span{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .section9 .wrap .swiper.connection .swiper-wrapper .swiper-slide .text{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+    .section9 .wrap .swiper.connection .swiper-wrapper .swiper-slide .text span{
+        display: block;
+        text-align: center;
+    }
+
+    .section9 .wrap .swiper.connection .swiper-wrapper .swiper-slide .text h6{
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        margin-top: unset;
+        margin-bottom: 20px;
+    }
+
+    .section9 .wrap .swiper.connection .swiper-wrapper .swiper-slide .text .read a span{
+        font-size: 14px;
+    }
+
+    .section9 .wrap .swiper.connection .swiper-wrapper .swiper-slide .text .read a span::after{
+        content: '';
+        display: block;
+        width: 85px;
+        height: 1px;
+        background-color: #b3b3b3;
+        margin: 0 auto;
+    }
+
+    .section10 {
+        width: 1320px;
+        padding: 70px 10px;
+        margin: 0 auto;
+    }
+
+    .section10 .tit h5{
+        font-size: 14px;
+    }
+
+    .section10 .tit h3{
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .section10 .tit .span{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .section10 .m{
+        display: none;
+    }
+
+    .section10 .pc{
+        display: flex;
+        gap: 20px;
+    }
+
+    .section10 .pc .text{   
+        text-align: center;
+        padding: 30px 20px 0;
+    }
+
+    .section10 .pc .first{
+        background-color: #035ea3;
+        position: relative;
+    }
+
+    .section10 .pc .first .text h4{
+        font-size: 28px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .section10 .pc .first .text p{
+        font-size: 20px;
+        font-weight: 200;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .section10 .pc .first .text a{
+        width: 41px;
+        margin: 30px 20px;
+    }
+
+    .section10 .pc .second{
+        background-color: #f8f6e3;
+        position: relative;
+    }
+
+    .section10 .pc .second .text h4{
+        font-size: 28px;
+        font-weight: 600;
+        color: #111111;
+    }
+
+    .section10 .pc .second .text p{
+        font-size: 20px;
+        font-weight: 200;
+        color: #111111;
+        margin-top: 10px;
+    }
+
+    .section10 .pc .second .text a{
+        width: 41px;
+        margin: 30px 20px;
+    }
+
+    .section10 .pc .third{
+        background-color: #f93a4c;
+        position: relative;
+    }
+
+    .section10 .pc .third .text h4{
+        font-size: 28px;
+        font-weight: 600;
+        color: #111111;
+    }
+
+    .section10 .pc .third .text p{
+        font-size: 20px;
+        font-weight: 200;
+        color: #111111;
+        margin-top: 10px;
+    }
+
+    .section10 .pc .third .text a{
+        width: 41px;
+        margin: 30px 20px;
+    }
+
+    footer{
+        background-color: #f5f5f5; 
+    }
+
+    footer .wrap{
+        width: 1320px;
+        padding: 35px 20px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    footer .wrap .top{
+        order: 1;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .wrap .top .logo{
+        display: block;
+    }
+
+    footer .wrap .top .logo a img{
+        width: 200px;
+        margin-top: 8px;
+    }
+    
+    footer .wrap .top .search{
+        display: block;
+        width: 450px;
+        height: 35px;
+        margin: 20px auto;
+        border: 1px solid #b3b3b3;
+        border-radius: 20px;
+        display: flex;
+        gap: 14px;
+    }
+
+    footer .wrap .top .search img{
+        width: 20px;
+        height: 20px;
+        margin-top: 6px;
+        margin-left: 16px;
+    }
+
+    footer .wrap .top .sns{
+        margin-top: 16px;
+    }
+
+    footer .wrap .top .sns ul{
+        display: flex;
+        gap: 40px;
+    }
+
+    footer .wrap .mid{
+        order: 2;
+        display: flex;
+        gap: 70px;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    footer .wrap .mid .left .membership h5{
+        font-size: 18px;
+    }
+
+    footer .wrap .mid .left .membership p{
+        font-size: 16px;
+    }
+
+    footer .wrap .mid .left .customer h5{
+        font-size: 18px;
+    }
+    
+    footer .wrap .mid .left .customer p{
+        font-size: 16px;
+    }
+
+    footer .wrap .mid .right ul{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    footer .wrap .mid .right > ul > li:nth-child(3){
+        margin-left: 50px;
+    }
+
+    footer .wrap .mid .right ul li .tit button{
+        width: unset;
+        height: 40px;
+        line-height: 40px;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    footer .wrap .mid .right ul li .tit button h6{
+        font-size: 18px;
+    }
+    
+    footer .wrap .mid .right ul li .tit button img{
+        display: none;
+    }
+
+    footer .wrap .mid .right ul li .sub_tit{
+        display: block;
+    }
+
+    footer .wrap .mid .right ul li .sub_tit li a{
+        font-size: 14px;
+    }
+
+    footer .wrap .bottom{
+        display: flex;
+        margin-top: 35px;
+    }
+
+    footer .wrap .bottom .left h6{
+        font-size: 14px;
+        margin-bottom: 4px;
+    }
+
+    footer .wrap .bottom .left span{
+        font-size: 12px;
+        color: #767676;
+        margin-bottom: 6px;
+    }
+
+    footer .wrap .bottom .left p{
+        font-size: 14px;
+        color: #111111;
+        position: absolute;
+        bottom: 20px;
+    }
+
+    footer .wrap .bottom .right{
+        margin-top: unset;
+        margin-bottom: 80px;
+    }
+
+    footer .wrap .bottom .right ul{
+        display: flex;
+        gap: 50px;
+        justify-content: space-between;
+    }
+
+    footer .wrap .bottom .right ul li a{
+        font-size: 14px;
+        text-wrap: nowrap;
+        text-align: end;
+    }
+
+    .bottomNav{
+        display: none;
+    }
+}
